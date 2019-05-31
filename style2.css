@@ -1,0 +1,73 @@
+*{
+    margin:0px;
+}
+body{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+.top-box{
+    margin-left:100px;
+    margin-right: 100px;
+    width:85%;
+    height:80px;
+    background-color: white;
+    text-align: right;
+}
+.color{
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color:grey;
+    text-align: center;
+}
+.mid-box{
+    margin-left:100px;
+    margin-right: 100px;
+    background-color: grey;
+    width:85%;
+    height:70%;
+}    
+.text-head{
+        text-align: center;
+    color:white;
+    font-size: 50px;
+}
+.text-part{
+    margin-top:30px;
+    text-align: center;
+    color:rgb(216, 211, 211);
+    font-size: 12px;
+}
+.button{
+    width:10%;
+    height:30px;
+    margin-top:30px;
+  margin-left:520px;
+      font-size:11px;
+    background-color: rgb(115, 115, 115);
+    border-radius:25px;
+    color:rgb(216, 211, 211);
+    line-height: 30px;
+  text-align:center;
+}
+.box-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.box{
+    position: relative;
+    position: relative;
+    background-color: white;
+    width: 30%;
+    height: 400px;
+    margin: calc(5% / 3);
+    text-align: center;
+    font-size: 11px;
+    color: grey;
+    float: left;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(117, 117, 117, 1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(117, 117, 117, 1);
+    box-shadow: 0px 0px 10px 0px rgba(117, 117, 117, 1);
+}
